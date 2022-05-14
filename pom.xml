@@ -5,6 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
@@ -13,6 +14,16 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>BookstoreApplication</name>
     <description>BookstoreApplication</description>
+=======
+        <version>2.6.7</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>bookstore</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>bookstore</name>
+    <description>bookstore</description>
+>>>>>>> 01c0f80 (update)
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -21,6 +32,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+<<<<<<< HEAD
 
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -32,14 +44,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+=======
+>>>>>>> 01c0f80 (update)
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity5</artifactId>
         </dependency>
+=======
+>>>>>>> 01c0f80 (update)
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,9 +70,15 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
+<<<<<<< HEAD
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
+=======
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+>>>>>>> 01c0f80 (update)
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -74,6 +97,17 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
+=======
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+>>>>>>> 01c0f80 (update)
             </plugin>
         </plugins>
     </build>
